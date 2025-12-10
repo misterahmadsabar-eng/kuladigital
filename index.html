@@ -752,14 +752,22 @@
                 </div>
                 <div class="p-2 sm:p-4">
                   <h3 class="font-bold leading-tight mb-3">${theme.name}</h3>
-                  <div class="grid gap-2 ">
+                  <div class="grid gap-2 sm:grid-cols-2">
                     <a
-                      href="${baseUrl}/preview/${theme.slug}"
+                      href="${baseUrl}/${theme.slug}"
                       target="_blank"
                       rel="nofollow"
                       class="btn text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-8 px-2 bg-secondary text-black hover:bg-secondary"
                     >
                       Preview
+                    </a>
+                    <a
+                      href="https://wa.me/${phoneNumber}?text=Saya+mau+pesan+tema+${theme.name}"
+                      target="_blank"
+                      rel="nofollow"
+                      class="btn text-sm sm:text-base inline-flex items-center text-center justify-center rounded h-8 px-2 bg-primary text-white hover:bg-primary"
+                    >
+                      Pesan
                     </a>
                   </div>
                 </div>
